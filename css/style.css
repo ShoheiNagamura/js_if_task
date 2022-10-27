@@ -25,6 +25,7 @@
     list-style: none;
     width: 80%;
     padding: 0;
+    cursor: pointer;
 }
 
 .number li {
@@ -63,6 +64,7 @@
 
 .button:hover {
     background-image: linear-gradient(45deg, #D4BB92 0%, #FDE0A5 100%);
+    cursor: pointer;
 }
 
 .centering {

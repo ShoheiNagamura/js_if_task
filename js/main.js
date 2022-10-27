@@ -92,7 +92,7 @@ $(function () {
     });
 });
 
-$("#result,#number").on("click", function () {
+$("#number").on("click", function () {
     location.href = 'https://www.trivago.jp/';
 });
 
