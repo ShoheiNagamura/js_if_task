@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+/* ルーレット */
+.result {
+    border: solid 1px #B78D4A;
+    border-radius: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 130px;
+}
+
+/* 出た数字の一覧 */
+.number {
+    color: #B78D4A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    list-style: none;
+    width: 80%;
+    padding: 0;
+}
+
+.number li {
+    background-color: #B78D4A;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    margin: 4px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+/* ボタン */
+.text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper-button {
+    padding: 20px 0;
+}
+
+.button {
+    font-size: 30px;
+    display: inline-block;
+    padding: .8rem 1.6rem;
+    border: none;
+    border-radius: 25px;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #B78D4A 0%, #D4BB92 100%);
+}
+
+.button:hover {
+    background-image: linear-gradient(45deg, #D4BB92 0%, #FDE0A5 100%);
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    z-index: 1;
+}
+
+.main-text {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}

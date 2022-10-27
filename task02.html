@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>課題02</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="wrapper">
+            <div class="text">
+                <div class="main-text">
+                    <h1>Let's go on a trip.</h1>
+                    <p>I want to live all over the world. We will decide your next destination.</p>
+                </div>
+                <!-- // ルーレット -->
+                <div id="result" class="result centering"></div>
+                <!-- ルーレット開始、停止のボタン -->
+                <div class="wrapper-button">
+                    <button id="button" class="button">START</button>
+                </div>
+                <!-- ルーレットを停止後、出た数字を一覧で表示 -->
+                <ul id="number" class="number"></ul>
+            </div>
+            <video src="./img/Pexels Videos 4105.mp4" autoplay loop muted playsinline></video>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
